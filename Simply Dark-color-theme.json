@@ -1,0 +1,47 @@
+{
+	"name": "Simply Dark",
+	"colors": {
+		"editor.background": "#1c1c1c",
+		"editor.foreground": "#d1d1d1",
+		"activityBarBadge.background": "#202528",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment", "punctuation.definition.comment", "string.quoted.docstring.multi.python", "punctuation.definition.string.end", "punctuation.definition.string.begin"],
+			"settings": {"foreground": "#8b8b8b"},
+		},
+		{
+			"scope": ["string", "constant.character.format.placeholder.other", "punctuation.definition.string.begin", "punctuation.definition.string.end"],
+			"settings": {"foreground": "#8dc871"},
+		},
+		{
+			"scope": ["constant.numeric"],
+			"settings": {"foreground": "#e89b4f"},
+		},
+		{
+			"scope": ["keyword", "storage.type.class", "storage.type.function", "constant.language.python"],
+			"settings": {"foreground": "#d573f0"},
+		},
+		{
+			"scope": ["support.type.exception", "punctuation.section.function.begin", "keyword.operator", "entity.name.function", "variable.function", "support.function", "keyword.other.special-method", "meta.function-call.generic", "punctuation.separator.colon", "punctuation.separator.dict", "support.type"],
+			"settings": {"foreground": "#5fa4ed"},
+		},
+		{
+			"scope": ["punctuation"],
+			"settings": {"foreground": "#d1d1d1"},
+		},
+		{
+			"scope": ["entity.name.type.class"],
+			"settings": {"foreground": "#deb42a", "fontStyle": "bold"},
+		},
+		{
+			"scope": ["variable.parameter.function.language.special.self", "variable.language.special.self.python"],
+			"settings": {"foreground": "#f04a4a"},
+		},
+		{
+			"scope": ["storage.type.function", "keyword.control.flow", "storage.type.class", "keyword.control.import", "support.type.exception", "support.function.builtin", "support.type", "variable.parameter.function.language.special.self", "variable.language.special.self", "constant.language.python", "support.function.magic"],
+			"settings": {"fontStyle": "italic"},
+		},
+	]
+}
