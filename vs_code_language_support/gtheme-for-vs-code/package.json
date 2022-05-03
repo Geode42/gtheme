@@ -1,0 +1,25 @@
+{
+    "name": "gtheme-for-vs-code",
+    "displayName": "gtheme for VS Code",
+    "description": "Adds support for gtheme files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gtheme",
+            "aliases": ["gtheme", "gtheme"],
+            "extensions": [".gtheme"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gtheme",
+            "scopeName": "source.gtheme",
+            "path": "./syntaxes/gtheme.tmLanguage.json"
+        }]
+    }
+}

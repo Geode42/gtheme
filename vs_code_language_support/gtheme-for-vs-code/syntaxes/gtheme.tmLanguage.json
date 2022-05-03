@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "gtheme",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword",
+				"match": "^(?!\t).*"
+			}]
+		},
+
+		"comments": {
+			"patterns": [{
+				"name": "comment",
+				"match": "\/\/.*"
+			}]
+		}
+	},
+	"scopeName": "source.gtheme"
+}
